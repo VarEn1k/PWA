@@ -1,23 +1,20 @@
 import {App} from './app.js';
 
-if ("serviceWorker" in navigator){
-  navigator.serviceWorker.register("sw.js").then( registration => {
-    console.log("SW registered");
+if("serviceWorker" in navigator){
+  navigator.serviceWorker.register("sw.js").then(registration => {
+    console.log("SW registered")
     console.log(registration);
-  }).catch( error => {
-    console.error("SW registration failed");
-    console.error(error);
-  });
+  }).catch(error =>{
+    console.error("SW registration failed")
+    console.log(error);
+  })
 }
 
-const timeoutId = setTimeout(init, 4000)
+// import '@fortawesome/fontawesome-free/js/fontawesome'
+// import '@fortawesome/fontawesome-free/js/solid'
+// import '@fortawesome/fontawesome-free/js/regular'
+// import '@fortawesome/fontawesome-free/js/brands'
 
 document.addEventListener("DOMContentLoaded", function () {
-  clearTimeout(timeoutId)
   window.app = new App();
-  init()
 });
-
-function init() {
-  window.app = new App();
-}
