@@ -10,12 +10,11 @@
       "src": "logo_images/logo_minon.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "logo_images/logo_minon.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "sizes": "512x512"
     }
   ]
 }
