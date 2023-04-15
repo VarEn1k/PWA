@@ -6,7 +6,7 @@ class App {
         document.body.appendChild(container);
 
 		const title = document.createElement('h3')
-		title.innerText = "Hello Zmina!"
+		title.innerText = "Hello african child"
 		container.appendChild(title)
 		
 		this.info = document.createElement('p')
