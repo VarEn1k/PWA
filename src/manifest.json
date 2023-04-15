@@ -1,5 +1,5 @@
 {
-  "name": "Simple PWA Example ",
+  "name": "Simple PWA Example",
   "short_name": "SimplePWA",
   "start_url": ".",
   "background": "#fff",
